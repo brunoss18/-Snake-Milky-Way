@@ -90,8 +90,11 @@ header .container{
     header{
         width: 100%;
     }
-    header{
-    
-    
+    header .logo{
+        font-size: 20px;
     }
+    
+    
+    
+    
 }
