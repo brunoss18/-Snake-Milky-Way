@@ -11,12 +11,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
-background-color: var(--black);
-font-family: 'Times New Roman', Times, serif;
+    background-image: url("/img/space.jpg");
+}
+body{
+   
+ 
+font-family: 'Press Start 2P', cursive;
 color: var(--blue);
 }
+
 
 
 header .container{
@@ -28,8 +32,8 @@ header .container{
    
    header .logo{
        margin: 10px;
-       color: var(--blue);
-       font-family: 'arial ',sans-serif ;
+       color: var(--white);
+       font-family: 'Press Start 2P', cursive;
        font-size: 25px;
    }
    
@@ -37,7 +41,7 @@ header .container{
        text-decoration: none;
        color: var(--blue);
        margin-right: 10px;
-       font-family: 'arial ', Times;
+       font-family: 'Press Start 2P', cursive;
    }
    header  nav a:hover{
        color: var(--blue);
@@ -45,8 +49,9 @@ header .container{
 
    .text{
     text-align:center;
-    font-family: 'Poppins', sans-serif;
-    padding-top: 8rem;
+    color: var(--white);
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 13rem;
    }
 
    .text>h2{
@@ -54,12 +59,13 @@ header .container{
    }
  
     #button{
+        font-family: 'Press Start 2P', cursive;
        border: none;
        border-radius: 5px;
-       background-color: var(--white);
+       background-color: none;
        padding: 5px;
        font-size: 30px;
-       color: var(--blue);
+       color: var(--black);
    }
 
    @media (max-width:1024px) {
