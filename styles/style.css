@@ -10,3 +10,22 @@ body{
     /* color: rgb(52, 165, 52); */
     color: blue;
 }
+
+@media (max-width:1024px) {
+    body{
+        width: 100%;
+    }
+}
+
+@media (max-width: 650px){
+
+    body{
+        
+        width: 100%;
+    }
+
+    #snake{
+       
+        width: 80%;
+    }
+}

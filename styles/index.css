@@ -1,0 +1,89 @@
+:root {
+    --black: #000;
+    --blue: #2979ff;
+    --indigo: #3d5afe;
+    --purple: #d500f9;
+    --white: #ffffff;
+    --primary: #d500f9;}
+   
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: var(--black);
+font-family: 'Times New Roman', Times, serif;
+color: var(--blue);
+}
+
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   }
+   
+   header .logo{
+       margin: 10px;
+       color: var(--blue);
+       font-family: 'arial ',sans-serif ;
+       font-size: 25px;
+   }
+   
+   header nav a{
+       text-decoration: none;
+       color: var(--blue);
+       margin-right: 10px;
+       font-family: 'arial ', Times;
+   }
+   header  nav a:hover{
+       color: var(--blue);
+   }
+
+   .text{
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 8rem;
+   }
+
+   .text>h2{
+       padding-bottom: 1rem;
+   }
+ 
+    #button{
+       border: none;
+       border-radius: 5px;
+       background-color: var(--white);
+       padding: 5px;
+       font-size: 30px;
+       color: var(--blue);
+   }
+
+   @media (max-width:1024px) {
+    body{
+        width: 100%;
+    }
+}
+
+@media (max-width: 650px){
+
+   
+    .text{
+        width: 100%;
+        padding-top: 15rem;
+    }
+    .text{
+        
+    }
+
+    header{
+        width: 100%;
+    }
+    header{
+    
+    
+    }
+}
