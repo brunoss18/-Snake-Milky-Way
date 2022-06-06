@@ -11,6 +11,11 @@ body{
     color: white;
 }
 
+EMBED{
+    color:black;
+   
+}
+
 #snake{
     border-radius: 10px;
 }

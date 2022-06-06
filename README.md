@@ -9,7 +9,8 @@
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
   
   
 </p>
@@ -28,10 +29,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 - JavaScript
 
-
 ## 💻 Projeto
+
 Nesse projeto eu criei um jogo da cobrinha utilizando HTML, CSS e Javascript. 
 
 
+
+
+## 🔖 Layout
+
+https://snake-game-milky-way.netlify.app/
 
 Feito com ♥ by Bruno Soares 👋🏽
